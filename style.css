@@ -1,0 +1,82 @@
+:root{
+    --primary:#D61461;
+    --size:3rem;
+    --secondary:#0567F3;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: #0E0837;
+    color: white;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+.title-section h2{
+    color: var(--primary);
+
+}
+
+.title-section h1{
+    font-size: var(--size);
+    background-image:url("https://media4.giphy.com/media/QNWc3RiTgbcvG04TEU/giphy.gif?cid=ecf05e47pti7swm66b6lm55gw4h34nwfvk202ntvgcmxg78b&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;    
+    font-weight: normal;
+
+}
+
+.title-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.title-section p{
+    font-size: 1.3rem;
+}
+
+.title-section h5{
+    color: var(--primary);
+
+}
+
+
+.icons{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.icons :hover{
+    cursor: pointer;
+    transform: translate(0.2s);
+color: var(--primary);
+}
+
+.title-section button{
+    padding: 0.6rem;
+    margin: 0.7rem 0;
+    background:var(--secondary);
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.image-section{
+    scale: 1.3;
+}
+
+
